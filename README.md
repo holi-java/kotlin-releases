@@ -20,6 +20,9 @@
 
 - makes [Regex] class serializable.
 
+- [BigInteger][BigNumber] and [BigDecimal][BigNumber] extensions.
+
+
 
 
 [Array literals]: src/test/kotlin/com/holi/kotlin/features/AnnotationArrayLiteralsArgumentsTest.kt#L10
@@ -31,3 +34,4 @@
 [List.windowed()]: src/test/kotlin/com/holi/kotlin/extensions/CollectionExtensionsTest.kt#L53-L54
 [Sequence.pairwise()]: src/test/kotlin/com/holi/kotlin/extensions/SequenceExtensionsTest.kt#L19
 [Regex]: src/test/kotlin/com/holi/kotlin/extensions/SerializableRegexTest.kt#L14
+[BigNumber]: src/test/kotlin/com/holi/kotlin/extensions/BigNumberExtensionsTest.kt
