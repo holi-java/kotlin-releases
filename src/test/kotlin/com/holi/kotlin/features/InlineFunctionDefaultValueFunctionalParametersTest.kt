@@ -35,6 +35,7 @@ class InlineFunctionDefaultValueFunctionalParametersTest {
     }
 }
 
-inline fun inlined(block: () -> Unit = {}) = Unit
 
-fun noninline(block: () -> Unit = {}) = Unit
+inline fun inlined(@Suppress("UNUSED_PARAMETER") block: () -> Unit = {}) = Unit
+
+fun noninline(@Suppress("UNUSED_PARAMETER") block: () -> Unit = {}) = Unit
