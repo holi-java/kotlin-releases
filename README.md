@@ -18,7 +18,7 @@
   
 - [Sequence.pairwise()] - extension to get all subsequent pairs in collection   
 
-
+- makes [Regex] class serializable.
 
 
 
@@ -30,3 +30,4 @@
 [List.chunked()]: src/test/kotlin/com/holi/kotlin/extensions/CollectionExtensionsTest.kt#L44-L45
 [List.windowed()]: src/test/kotlin/com/holi/kotlin/extensions/CollectionExtensionsTest.kt#L53-L54
 [Sequence.pairwise()]: src/test/kotlin/com/holi/kotlin/extensions/SequenceExtensionsTest.kt#L19
+[Regex]: src/test/kotlin/com/holi/kotlin/extensions/SerializableRegexTest.kt#L14
