@@ -8,11 +8,11 @@ import kotlin.reflect.full.findAnnotation
 annotation class View(val names: Array<String>)
 
 @View(names = ["foo", "bar"])
-class AnnotationArrayLiteralsTest {
+class AnnotationArrayLiteralsArgumentsTest {
 
     @Test
-    fun `array literal attributes`() {
-        val it = AnnotationArrayLiteralsTest::class.findAnnotation<View>()!!
+    fun `array literal arguments`() {
+        val it = AnnotationArrayLiteralsArgumentsTest::class.findAnnotation<View>()!!
 
         assert.that(it.names.toList(), equalTo(listOf("foo", "bar")))
     }
