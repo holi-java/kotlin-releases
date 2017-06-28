@@ -14,7 +14,9 @@
 - Collections
   - [MutableList.fill()] extension
   - [MutableList.shuffle()] & [List.shuffled()]  extensions
-  - [List.chunked()] and [List.windowed()] - extension functions to support partitioning collections into blocks of the given size and taking a window of the given size and moving it along the collection with the given step.  
+  - [List.chunked()] and [List.windowed()] - extension functions to support partitioning collections into blocks of the given size and taking a window of the given size and moving it along the collection with the given step.
+  
+- [Sequence.pairwise()] - extension to get all subsequent pairs in collection   
 
 
 
@@ -27,3 +29,4 @@
 [List.shuffled()]: src/test/kotlin/com/holi/kotlin/extensions/CollectionExtensionsTest.kt#L35
 [List.chunked()]: src/test/kotlin/com/holi/kotlin/extensions/CollectionExtensionsTest.kt#L44-L45
 [List.windowed()]: src/test/kotlin/com/holi/kotlin/extensions/CollectionExtensionsTest.kt#L53-L54
+[Sequence.pairwise()]: src/test/kotlin/com/holi/kotlin/extensions/SequenceExtensionsTest.kt#L19
