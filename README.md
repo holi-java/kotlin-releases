@@ -13,6 +13,6 @@
 
 
 
-[Array literals]: src/test/kotlin/com/holi/kotlin/features/AnnotationArrayLiteralsTest.kt#L10
+[Array literals]: src/test/kotlin/com/holi/kotlin/features/AnnotationArrayLiteralsArgumentsTest.kt#L10
 [default values]: src/test/kotlin/com/holi/kotlin/features/InlineFunctionDefaultValueFunctionalParametersTest.kt#L38
 
